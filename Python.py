@@ -1,5 +1,4 @@
 text = input("Type your message in english: ")
-answers = []
 words = text.split()
 answer = ""
 
