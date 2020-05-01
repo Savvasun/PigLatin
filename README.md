@@ -1,1 +1,3 @@
 # PigLatin
+
+This is a small and cute little project that allows your computer to translate any message to the "language" pig latin! Pig latin is a language in which every word of your message is altered. To use it, take initial consonant or consonant cluster of each word and move it to the end of the word while adding an "ay" as well. Unfirtunately, the program doesn't have the ability recognize consonants and such as it only takes the first two letters, so feel free to add your own code and improve the program!
