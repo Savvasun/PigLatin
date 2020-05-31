@@ -3,6 +3,8 @@ words = text.split()
 mode = input("Do you want simple Pig Latin (simple), custom Pig Latin (custom), or classic Pig Latin? (classic): ")
 vow = "aeiou"
 cons = "bcdfghjklmnpqrstvxz"
+vowels = list(vow)
+consonants = list(cons)
 moveLet = 0
 answer = ""
 
@@ -24,9 +26,6 @@ if (mode == "simple"):
     print(answer)
 
 if (mode == "classic"):
-    vowels = list(vow)
-    consonants = list(cons)
-    
     for i in range(len(words)):
         word = words[i]
         
