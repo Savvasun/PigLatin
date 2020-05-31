@@ -30,7 +30,7 @@ if (mode == "classic"):
     for i in range(len(words)):
         word = words[i]
         
-        for i in range(len(list(word))):
+        for i in range(len(word)):
             if (any(x in word[i] for x in consonants) == True and any(x in word[i + 1] for x in vowels) == True):
                 moveLet = word.find(word[i]) - 1
         
