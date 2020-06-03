@@ -22,5 +22,3 @@ Once you have typed your message it will ask:
 `Do you want simple Pig Latin (simple), custom Pig Latin (custom), or classic Pig Latin? (classic):`
 
 ###### *The ReadMe file isn't fully completed*
-
-* test
