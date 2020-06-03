@@ -1,3 +1,5 @@
+#This prompts you to enter your message in English.
+#It also declares some variables.
 text = input("Type your message in english: ")
 words = text.split()
 print(words)
